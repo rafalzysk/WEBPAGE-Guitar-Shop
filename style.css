@@ -302,12 +302,7 @@ section {
 }
 
 .products .box-container {
-    /* display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 1rem auto;
-    padding: 2rem 2rem; */
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
@@ -522,8 +517,6 @@ section {
     border: var(--border);
     color: white;
     margin: 0.5rem;
-
-
 }
 
 .footer .share a:hover {
@@ -541,6 +534,10 @@ section {
     border: var(--border);
     padding: 0.5rem 1rem;
     margin: 1rem 0.7rem;
+}
+
+.footer .links a:hover {
+    color: var(--main-color)
 }
 
 
